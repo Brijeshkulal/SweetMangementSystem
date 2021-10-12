@@ -10,28 +10,15 @@ public class SweetRepository {
 		return sweetList;
 	}
 
-	public void add(Modak modak) {
-		sweetList.add(modak);
+	public void add(Sweet sweet) {
+		sweetList.add(sweet);
 	}	
 	
-	
-	public void add(Jalebi jalebi) {
-		sweetList.add(jalebi);
+	public void delete(Sweet sweet) {
+		sweetList.remove(sweet);
 	}
 	
-	public void add(Peda peda) {
-		sweetList.add(peda);
-		
-	}
 	
-	public void add(Rasgulla rasgulla) {
-		sweetList.add(rasgulla);
-		
-	}
 	
-	public void add(Laddu laddu) {
-		sweetList.add(laddu);
-		
-	}
 	
 }

@@ -32,6 +32,16 @@ public class Application {
 		UserInterface ui = new UserInterface();
 		ui.print(sweetList);
 		
+		sweetRepository.delete(peda);
+		sweetRepository.delete(modak);
+		sweetRepository.delete(laddu);
+		sweetRepository.delete(jalebi);
+		
+		System.out.println("After deleting the remainng Sweet list : ");
+		ui.print(sweetList);
+		
+		
+		
 	}
 
 }
